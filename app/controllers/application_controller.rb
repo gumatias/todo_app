@@ -4,7 +4,17 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   protect_from_forgery with: => exception
 
-  def  aaa (a    , b, c)
-        1 + 1
+  def  aaa    (a    , b, c)
+        1 + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + + 1 + 
   end
+  
+  
+  
+  
+  
+  
+  
+  
 end
+
+
