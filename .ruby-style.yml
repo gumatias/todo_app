@@ -1,4 +1,5 @@
 AllCops:
+  DisabledByDefault: true
   Exclude:
     - "vendor/**/*"
     - "db/schema.rb"
