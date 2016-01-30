@@ -10,13 +10,11 @@ AllCops:
 Style/FileName:
   Description: Use snake_case for source file names.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#snake-case-files
-  Enabled: true
   Exclude: []
 
 Style/PredicateName:
   Description: Check the names of predicate methods.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#bool-methods-qmark
-  Enabled: true
   NamePrefix:
   - is_
   - has_
@@ -41,13 +39,10 @@ Lint/AssignmentInCondition:
 Style/OneLineConditional:
   Description: Favor the ternary operator(?:) over if/then/else/end constructs.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#ternary-operator
-  Enabled: true
 
-Style/Tab:
-  Enabled: true
+Style/Tab
 
-Style/TrailingWhitespace:
-  Enabled: true
+Style/TrailingWhitespace
 
 Style/HashSyntax:
   EnforcedStyle: ruby19
@@ -64,7 +59,6 @@ Style/HashSyntax:
 Metrics/MethodLength:
   Description: Avoid methods longer than 15 lines of code.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#short-methods
-  Enabled: true
   CountComments: false
   Max: 15
 
