@@ -16,7 +16,6 @@ class ApplicationController < ActionController::Base
   def something()
   end
   
-  def 1 + 1; end                                    
   
   
 end
